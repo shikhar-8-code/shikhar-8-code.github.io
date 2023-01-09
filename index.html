@@ -196,15 +196,25 @@
 								
 							</p>
 
-							<form method="post" action="mailto:sxy220002@utdallas.edu" enctype="text/plain">
+							<!-- <form action="http://formspree.io/sxy220002@utdallas.edu" method = "post">
 								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" placeholder="Email" /></div>
+									<div class="col-6 col-12-mobile"><input type="email" name="_replyto" placeholder="Email"></div>
+									<div class="col-6 col-12-mobile"><textarea   name="body" placeholder="Message"></textarea></div>
 									<div class="col-12">
-										<input type="submit" value="Send Mail" />
+										<input type="submit" value="Send">
 									</div>
 								</div>
-							</form>
+							</form> -->
+							<form action="https://formspree.io/f/xnqyqlev" method="post">
+								<label for="email">Your Email
+								<input type="text" name="_replyto">
+								</label>
+								<label>
+									Message:
+									<textarea name = "message"></textarea>
+								</label>
+								<button type="submit">Submit</button>
+							  </form>
 							
 
 						</div>
